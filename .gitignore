@@ -1,0 +1,34 @@
+# KiCad / EDA temporary and autosave files
+*.kicad_prl
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.lck
+fp-info-cache
+*.tmp
+
+# Altium temporary files
+History/
+__Lock/
+*.SchDocPreview
+*.PcbDocPreview
+*.LOG
+
+# STM32Cube / Embedded build artifacts
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.map
+*.elf
+*.bin
+*.hex
+.mxproject
+
+# OS and system clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
