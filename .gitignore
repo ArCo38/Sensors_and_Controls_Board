@@ -8,6 +8,7 @@ _autosave-*
 *.lck
 fp-info-cache
 *.tmp
+*-backups/
 
 # Altium temporary files
 History/
