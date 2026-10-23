@@ -4585,16 +4585,6 @@
 		)
 		(uuid "2f0902a4-b897-4caf-a657-1a2b68a03d35")
 	)
-	(text "Use voltage divider for VBUS to GPIO"
-		(exclude_from_sim no)
-		(at 208.915 67.945 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3db62e37-0346-474a-a426-95722a344245")
-	)
 	(text "1 x 100nF Capacitor per VDD Pin"
 		(exclude_from_sim no)
 		(at 46.99 17.145 0)
@@ -4607,17 +4597,6 @@
 			)
 		)
 		(uuid "42741a73-421e-4fe4-9d3a-b68a584d1cc2")
-	)
-	(text "+3V31"
-		(exclude_from_sim no)
-		(at 234.315 62.23 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.1429)
-			)
-		)
-		(uuid "52af1fe1-dbe7-42b8-9afb-173d40f12044")
 	)
 	(text "Ultrasonic Sensor"
 		(exclude_from_sim no)
@@ -4645,18 +4624,7 @@
 		)
 		(uuid "77ab7d52-0157-4ba5-a293-2c7cfc64bb18")
 	)
-	(text "+5V Echo"
-		(exclude_from_sim no)
-		(at 250.19 36.195 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.1429)
-			)
-		)
-		(uuid "7e2a78fa-742e-4c34-9f7e-cb23e4ca44e7")
-	)
-	(text "+5V\n"
+	(text ""
 		(exclude_from_sim no)
 		(at 252.095 67.945 0)
 		(effects
@@ -4692,17 +4660,6 @@
 			)
 		)
 		(uuid "b019b3a4-e63f-471b-b503-9eac932d13e2")
-	)
-	(text "+3V31"
-		(exclude_from_sim no)
-		(at 230.505 30.48 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.1429)
-			)
-		)
-		(uuid "f3d98b0a-8e56-4cd5-9913-bf424ce928bb")
 	)
 	(text "OLED Display"
 		(exclude_from_sim no)
@@ -5336,6 +5293,16 @@
 			(type default)
 		)
 		(uuid "2738e2c8-d6bf-4675-be48-ead260c7a866")
+	)
+	(wire
+		(pts
+			(xy 133.35 46.99) (xy 147.955 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2742945f-6708-4437-8156-8ae8652b475b")
 	)
 	(wire
 		(pts
@@ -6959,7 +6926,7 @@
 		)
 		(uuid "1761f394-c8b5-45a1-aeac-3aaa168d603e")
 	)
-	(label "US_TIM3_CH1"
+	(label "US_ECHO"
 		(at 135.255 59.69 0)
 		(effects
 			(font
@@ -6970,6 +6937,30 @@
 			(justify left bottom)
 		)
 		(uuid "18b37fa2-21d0-4840-a69b-2af64a8481e0")
+	)
+	(label "TIM2_CH2"
+		(at 135.255 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "18d69df4-ffdb-4f1e-b4f8-1ff7ec7198d5")
+	)
+	(label "USB_VBUS"
+		(at 248.92 68.58 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e9aab62-638b-4ba9-8f2d-ca8a744c82e6")
 	)
 	(label "USB_D+"
 		(at 135.255 74.93 0)
@@ -6982,6 +6973,18 @@
 			(justify left bottom)
 		)
 		(uuid "42992609-132c-4b54-ae3d-88aa9cd579d5")
+	)
+	(label "ECHO_5V"
+		(at 245.11 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "49a150e9-fc4f-4fb0-b8df-532e9faf4a5d")
 	)
 	(label "RES"
 		(at 135.255 92.71 0)
@@ -7006,6 +7009,18 @@
 			(justify left bottom)
 		)
 		(uuid "5a172716-5922-4a70-9ea6-14aaadd6d905")
+	)
+	(label "USB_VSENSE"
+		(at 135.255 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c1414b7-ee0f-4c5c-abb9-1a9fe95ee902")
 	)
 	(label "SPI1_SCK"
 		(at 135.255 95.25 0)
