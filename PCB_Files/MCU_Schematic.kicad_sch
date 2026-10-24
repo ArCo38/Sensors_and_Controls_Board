@@ -10660,7 +10660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a48419dc-8e3c-46d7-ae42-51befa735a03")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 96.52 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10911,7 +10911,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
