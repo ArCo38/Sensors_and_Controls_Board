@@ -1610,12 +1610,6 @@
 		(uuid "d59992d5-6be7-4921-81d4-a274c11b08d6")
 	)
 	(junction
-		(at 179.07 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d713aaae-07a2-45cb-840b-9f38d3e50460")
-	)
-	(junction
 		(at 184.15 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1729,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 85.09) (xy 184.15 85.09)
+			(xy 166.37 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1816,16 +1810,6 @@
 			(type default)
 		)
 		(uuid "2fb866db-c9d9-44e8-8d71-c4ee53d7c9f4")
-	)
-	(wire
-		(pts
-			(xy 179.07 82.55) (xy 179.07 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31f646d3-2cce-4f37-8958-2e01cf070057")
 	)
 	(wire
 		(pts
@@ -2316,16 +2300,6 @@
 			(type default)
 		)
 		(uuid "ab304434-67e7-431e-9795-c88188a4508a")
-	)
-	(wire
-		(pts
-			(xy 166.37 85.09) (xy 179.07 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb9f4a3-57e4-4417-bd98-9ee051c97f26")
 	)
 	(wire
 		(pts
@@ -4247,84 +4221,6 @@
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 179.07 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7ac5b4f-a08c-480f-bf73-0e62d54ffdd6")
-		(property "Reference" "#FLG07"
-			(at 179.07 80.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 179.07 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 179.07 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aef070db-fe08-499e-8e0c-f1948e58dda3")
-		)
-		(instances
-			(project "Sensor_Integration_Board"
-				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
