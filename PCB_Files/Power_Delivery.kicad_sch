@@ -1908,7 +1908,7 @@
 	)
 	(text "8V4 (Full) - 7V4 (Nom) - 6V4 (Cutoff)"
 		(exclude_from_sim no)
-		(at 38.1 80.01 0)
+		(at 38.1 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1917,6 +1917,31 @@
 			)
 		)
 		(uuid "0f3aba77-d940-4b4f-b4da-39554df54277")
+	)
+	(text "RadioMaster 5000mAh 2s Li-ion"
+		(exclude_from_sim no)
+		(at 34.29 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "bd6ff7a5-d4e8-4a87-9f73-a007d38dd208")
+	)
+	(text "BATTERY INFO -\n\nCapacity: 5000mAh\n\nWatt Hours: 37wh\n\nVoltage: 7.4V\n\nCells: 2 x 21700 Li-ion 3.7V 18.5Wh\n\nConnector: JST-XH and XT30\n\nCharge current: Max 2A\n\nDimensions: 71.5 x 43.5 x 23.5 mm\n\nWeight: 155g"
+		(exclude_from_sim no)
+		(at 19.05 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d315fb0a-6db0-439e-8766-87978da42942")
 	)
 	(junction
 		(at 227.33 49.53)
