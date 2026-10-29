@@ -2762,16 +2762,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 113.03) (xy 189.23 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a10d110-2bb2-4991-b5d5-8aef60cf251d")
-	)
-	(wire
-		(pts
 			(xy 71.12 101.6) (xy 73.66 101.6)
 		)
 		(stroke
@@ -3432,16 +3422,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 114.3) (xy 48.26 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8950b7f-9a44-4c7a-a0ef-c207b32b487d")
-	)
-	(wire
-		(pts
 			(xy 50.8 129.54) (xy 53.34 129.54)
 		)
 		(stroke
@@ -3594,6 +3574,30 @@
 			)
 		)
 	)
+	(global_label "MOT_STBY"
+		(shape input)
+		(at 48.26 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "489b2cce-3ea7-4ab9-a067-caa869e36410")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.022 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MOT1_PWM"
 		(shape input)
 		(at 48.26 121.92 180)
@@ -3655,6 +3659,30 @@
 		(uuid "7b106379-216f-44fe-a340-c04be7e37b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.2034 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MOT_STBY"
+		(shape input)
+		(at 189.23 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8a8d974-ba4c-4470-a027-b19debbb575d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.992 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3868,84 +3896,6 @@
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10453f16-74df-4bec-b60b-b20d1efcbfda")
-		(property "Reference" "#PWR043"
-			(at 189.23 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 186.69 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f708e214-1dfd-4c41-9c31-4fc7e3615789")
-		)
-		(instances
-			(project "Sensor_Integration_Board"
-				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5076,83 +5026,6 @@
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 48.26 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7755661a-a73c-4d42-aaa7-7c34f7745ca9")
-		(property "Reference" "#PWR042"
-			(at 48.26 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.26 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2070d22f-18a3-45eb-bb74-90585d7a4bbc")
-		)
-		(instances
-			(project "Sensor_Integration_Board"
-				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
