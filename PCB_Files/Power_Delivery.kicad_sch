@@ -3030,6 +3030,18 @@
 		)
 		(uuid "fbf634de-5cc4-4488-84c3-f1503136db64")
 	)
+	(label "+BATT_SW"
+		(at 82.55 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b767633b-5e75-46f4-944a-6db0892bcf69")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 181.61 53.34 0)
@@ -3124,7 +3136,7 @@
 		(dnp no)
 		(uuid "2603a2d1-aa08-4beb-b513-c80851bfc7b7")
 		(property "Reference" "D4"
-			(at 78.74 44.45 90)
+			(at 71.12 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3134,7 +3146,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 78.74 46.99 90)
+			(at 80.01 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3369,7 +3381,7 @@
 		(dnp no)
 		(uuid "31240a88-58e4-4892-acf2-a4bbee979095")
 		(property "Reference" "D1"
-			(at 93.98 43.18 0)
+			(at 93.98 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3379,7 +3391,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 93.98 45.72 0)
+			(at 93.98 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3972,7 +3984,7 @@
 		(dnp no)
 		(uuid "87b8da2f-08b3-41c9-b50d-310fc1a164e7")
 		(property "Reference" "D2"
-			(at 246.38 43.18 0)
+			(at 238.76 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3982,7 +3994,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 246.38 45.72 0)
+			(at 238.76 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
