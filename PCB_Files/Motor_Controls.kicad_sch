@@ -3765,7 +3765,7 @@
 				)
 			)
 		)
-		(property "Value" "+VBAT"
+		(property "Value" "+VBAT_SW"
 			(at 214.63 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5361,7 @@
 				)
 			)
 		)
-		(property "Value" "+VBAT"
+		(property "Value" "+VBAT_SW"
 			(at 66.04 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5595,7 +5595,7 @@
 				)
 			)
 		)
-		(property "Value" "+VBAT"
+		(property "Value" "+VBAT_SW"
 			(at 73.66 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,7 +5844,7 @@
 				)
 			)
 		)
-		(property "Value" "+VBAT"
+		(property "Value" "+VBAT_SW"
 			(at 66.04 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
