@@ -4989,11 +4989,11 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 227.33 90.17 0)
+		(at 228.6 90.17 0)
 		(effects
 			(font
-				(size 1.905 1.905)
-				(thickness 0.254)
+				(size 2.159 2.159)
+				(thickness 0.381)
 				(bold yes)
 				(color 0 0 255 1)
 			)
@@ -5002,12 +5002,11 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 24.13 80.01 0)
+		(at 25.4 80.01 0)
 		(effects
 			(font
 				(size 3.81 3.81)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.4763)
 				(color 0 0 255 1)
 			)
 		)
@@ -5019,6 +5018,7 @@
 		(effects
 			(font
 				(size 0.508 0.508)
+				(thickness 0.0635)
 				(color 0 0 0 1)
 			)
 		)
@@ -5043,7 +5043,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.254)
+				(thickness 0.381)
 				(bold yes)
 				(color 0 0 255 1)
 			)
@@ -5056,7 +5056,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.254)
+				(thickness 0.381)
 				(bold yes)
 				(color 0 0 255 1)
 			)
@@ -5069,7 +5069,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.254)
+				(thickness 0.381)
 				(bold yes)
 				(color 0 0 255 1)
 			)
@@ -5093,7 +5093,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.254)
+				(thickness 0.381)
 				(bold yes)
 				(color 0 0 255 1)
 			)
@@ -5106,7 +5106,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.254)
+				(thickness 0.381)
 				(bold yes)
 				(color 0 0 255 1)
 			)
@@ -5119,8 +5119,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.2381)
 				(color 0 0 255 1)
 			)
 		)
@@ -5132,7 +5131,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.254)
+				(thickness 0.381)
 				(bold yes)
 				(color 0 0 255 1)
 			)
@@ -8310,7 +8309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 20.0152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9714,7 +9713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 266.7 86.0552 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.9348 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -12918,7 +12917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 36.83 0)
 			(hide yes)
 			(show_name no)
