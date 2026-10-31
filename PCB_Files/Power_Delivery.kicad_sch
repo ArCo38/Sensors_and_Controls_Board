@@ -2758,6 +2758,18 @@
 		)
 		(uuid "bd6ff7a5-d4e8-4a87-9f73-a007d38dd208")
 	)
+	(text "16v,\n\nRMS current rating above 1.72A"
+		(exclude_from_sim no)
+		(at 95.25 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "c8ce9ef7-ded9-4963-8ea0-3966c330155e")
+	)
 	(text "BATTERY INFO -\n\nCapacity: 5000mAh\n\nWatt Hours: 37wh\n\nVoltage: 7.4V\n\nCells: 2 x 21700 Li-ion 3.7V 18.5Wh\n\nConnector: JST-XH and XT30\n\nCharge current: Max 2A\n\nDimensions: 71.5 x 43.5 x 23.5 mm\n\nWeight: 155g"
 		(exclude_from_sim no)
 		(at 19.05 110.49 0)
@@ -2808,6 +2820,12 @@
 		(uuid "55f697df-6f50-4a23-b44b-256efe147f34")
 	)
 	(junction
+		(at 124.46 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "570210a3-7f59-4d01-ba97-0ab68a6860c7")
+	)
+	(junction
 		(at 35.56 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2854,6 +2872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97b0f427-6cde-4e81-a9e0-f37034185858")
+	)
+	(junction
+		(at 105.41 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc011b6-dd3f-4e66-a8d9-e436e9c849bb")
 	)
 	(junction
 		(at 209.55 46.99)
@@ -2964,6 +2988,16 @@
 			(type default)
 		)
 		(uuid "145af716-c2d8-40d6-bb9e-af0ff644562d")
+	)
+	(wire
+		(pts
+			(xy 124.46 125.73) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170d8bc5-47e3-4b15-bfb9-bc84f55e3e53")
 	)
 	(wire
 		(pts
@@ -3087,6 +3121,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 128.27) (xy 124.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a220f7-bd37-4e22-90b8-294eeea843e6")
+	)
+	(wire
+		(pts
 			(xy 162.56 59.69) (xy 181.61 59.69)
 		)
 		(stroke
@@ -3117,6 +3161,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 138.43) (xy 105.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4933c593-cd65-4e42-b63b-e5aca10d7cf6")
+	)
+	(wire
+		(pts
+			(xy 125.73 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4998f7c6-8912-4173-8dab-61324863bea3")
+	)
+	(wire
+		(pts
 			(xy 87.63 38.1) (xy 87.63 40.64)
 		)
 		(stroke
@@ -3137,6 +3201,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 125.73) (xy 124.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb5c99d-51d9-4a44-be03-f1b0f60af301")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9836a7-b6fa-4aba-8c75-ed409b5b2ae7")
+	)
+	(wire
+		(pts
 			(xy 204.47 46.99) (xy 209.55 46.99)
 		)
 		(stroke
@@ -3144,6 +3228,16 @@
 			(type default)
 		)
 		(uuid "57102eb6-43f2-469d-83cd-838a6e7ecf9b")
+	)
+	(wire
+		(pts
+			(xy 105.41 128.27) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59eb5b32-a8bc-4af3-a348-3792337f1811")
 	)
 	(wire
 		(pts
@@ -3347,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 125.73) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac03d4ff-456f-418d-b55e-335d129c7692")
+	)
+	(wire
+		(pts
 			(xy 181.61 46.99) (xy 189.23 46.99)
 		)
 		(stroke
@@ -3387,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 128.27) (xy 105.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cda265-bfef-4ebb-84a7-e7f252eb4d36")
+	)
+	(wire
+		(pts
 			(xy 64.77 40.64) (xy 64.77 49.53)
 		)
 		(stroke
@@ -3414,6 +3528,16 @@
 			(type default)
 		)
 		(uuid "bbd7332e-8eba-4b9c-a509-3256eaa608bb")
+	)
+	(wire
+		(pts
+			(xy 105.41 128.27) (xy 124.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c243db13-8161-4e14-8b9a-406711203fff")
 	)
 	(wire
 		(pts
@@ -3662,6 +3786,85 @@
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/e3d20648-cf59-48a4-a1f4-1454d372f010"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 105.41 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b72aa08-c5c1-4fe1-8847-47851779fbca")
+		(property "Reference" "#PWR055"
+			(at 105.41 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 105.283 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 105.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "030be2c7-c93a-4fd8-855b-25bb2756d559")
+		)
+		(instances
+			(project "Sensor_Integration_Board"
+				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/e3d20648-cf59-48a4-a1f4-1454d372f010"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4003,6 +4206,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 124.46 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c68d23c-1b98-432f-be9b-de62088390fd")
+		(property "Reference" "#PWR059"
+			(at 124.46 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 124.333 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 124.46 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c222399d-fa5c-43a7-8c3d-5d88349eeb4f")
+		)
+		(instances
+			(project "Sensor_Integration_Board"
+				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/e3d20648-cf59-48a4-a1f4-1454d372f010"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 232.41 44.45 0)
 		(unit 1)
@@ -4074,6 +4356,83 @@
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/e3d20648-cf59-48a4-a1f4-1454d372f010"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 100.33 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c566d31-ea2a-4ce3-93f6-d8243b66a617")
+		(property "Reference" "#PWR046"
+			(at 100.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT"
+			(at 100.33 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96c57292-f376-4e35-bd46-79199cf0ca15")
+		)
+		(instances
+			(project "Sensor_Integration_Board"
+				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/e3d20648-cf59-48a4-a1f4-1454d372f010"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5176,6 +5535,88 @@
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/e3d20648-cf59-48a4-a1f4-1454d372f010"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 134.62 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b75d7c4-a84d-4888-9bad-06d0c12f3aef")
+		(property "Reference" "C32"
+			(at 101.6 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 101.6 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.4448 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c90f439-efe2-4d00-961b-05fd1c328961")
+		)
+		(pin "2"
+			(uuid "50c3ef32-ed42-4504-9b35-5ae812ee0847")
+		)
+		(instances
+			(project "Sensor_Integration_Board"
+				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/e3d20648-cf59-48a4-a1f4-1454d372f010"
+					(reference "C32")
 					(unit 1)
 				)
 			)
