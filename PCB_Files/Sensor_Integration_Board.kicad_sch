@@ -92,7 +92,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -138,7 +138,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b"
-					(page "3")
+					(page "1")
 				)
 			)
 		)

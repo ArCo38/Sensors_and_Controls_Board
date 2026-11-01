@@ -662,7 +662,7 @@
         "uuid": "0eab3e03-be91-4947-b3db-b5c169582a4b"
       }
     ],
-    "used_designators": "Q1,R15,SW2,#PWR45,#PWR60-62",
+    "used_designators": "SW1-2,R1-23,#FLG1-6,L1,D1-12,BT1,#PWR1-69,C1-33,Q1,U1-5,FB1,J1-6,M1-4,Y1",
     "variants": []
   },
   "sheets": [
@@ -671,12 +671,12 @@
       "Root"
     ],
     [
-      "98354bc1-1342-4ebb-af53-ef072585a9ed",
-      "MicroController"
-    ],
-    [
       "e3d20648-cf59-48a4-a1f4-1454d372f010",
       "Power_Delivery"
+    ],
+    [
+      "98354bc1-1342-4ebb-af53-ef072585a9ed",
+      "MicroController"
     ],
     [
       "a2ad5281-e4f1-42dc-9117-9489a5cb988a",
