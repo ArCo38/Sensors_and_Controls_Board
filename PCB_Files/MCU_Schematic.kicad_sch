@@ -10681,7 +10681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Connectors:SAMESKY_UJ20-C-H-G-MSMT-4B-P16-TR"
+		(property "Footprint" "Footprints:SAMESKY_UJ20-C-H-G-MSMT-4B-P16-TR"
 			(at 265.43 48.26 0)
 			(hide yes)
 			(show_name no)
