@@ -7985,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 31.242 90)
 			(hide yes)
 			(show_name no)
@@ -8566,7 +8566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm"
 			(at 39.37 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8834,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 243.078 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -9152,7 +9152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.158 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -9957,7 +9957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 278.638 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -11043,7 +11043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.858 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -11202,7 +11202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 80.01 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11871,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 19.812 90)
 			(hide yes)
 			(show_name no)
@@ -12339,7 +12339,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SWD"
 			(at 187.96 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12350,7 +12350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 187.96 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12487,9 +12487,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
+		(lib_id "Connector:Conn_01x04_Socket")
 		(at 276.86 114.3 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12499,7 +12498,7 @@
 		(dnp no)
 		(uuid "d5384f20-4c81-4b8d-b6b7-fe4867263e3f")
 		(property "Reference" "J10"
-			(at 278.13 121.92 0)
+			(at 276.86 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12509,7 +12508,7 @@
 			)
 		)
 		(property "Value" "2D_LiDAR"
-			(at 280.67 123.19 0)
+			(at 276.86 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12519,7 +12518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
 			(at 276.86 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12835,7 +12834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -12997,7 +12996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 237.49 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13084,7 +13083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70.612 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -13164,7 +13163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 265.938 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -13554,7 +13553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 148.082 90)
 			(hide yes)
 			(show_name no)
@@ -13634,7 +13633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 137.922 90)
 			(hide yes)
 			(show_name no)
