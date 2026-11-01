@@ -1,3 +1,5 @@
 (fp_lib_table
 	(version 7)
+	(lib (name "Symbols") (type "KiCad") (uri "C:/Users/arman/OneDrive/Desktop/Sensor_Integration_Board/Libs/Symbols") (options "") (descr ""))
+	(lib (name "Symbols") (type "KiCad") (uri "C:/Users/arman/OneDrive/Desktop/Sensor_Integration_Board/Libs/Symbols.pretty") (options "") (descr ""))
 )

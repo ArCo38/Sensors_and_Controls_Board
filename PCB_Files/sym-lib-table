@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "New_Library") (type "KiCad") (uri "C:/Users/arman/OneDrive/Desktop/Sensor_Integration_Board/Libs/Symbols/New_Library.kicad_sym") (options "") (descr ""))
+	(lib (name "SO8_EP1_AOS") (type "KiCad") (uri "C:/Users/arman/OneDrive/Desktop/Sensor_Integration_Board/Libs/Symbols/SO8_EP1_AOS.kicad_sym") (options "") (descr ""))
 )
