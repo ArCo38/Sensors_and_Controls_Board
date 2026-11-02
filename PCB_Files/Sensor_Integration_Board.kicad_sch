@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 20.32)
+		(at 185.42 20.32)
 		(size 46.99 49.53)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "a2ad5281-e4f1-42dc-9117-9489a5cb988a")
 		(property "Sheetname" "Motor_Controls"
-			(at 128.27 19.6084 0)
+			(at 185.42 19.6084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,53 @@
 			)
 		)
 		(property "Sheetfile" "Motor_Controls.kicad_sch"
-			(at 128.27 70.4346 0)
+			(at 185.42 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Integration_Board"
+				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 21.59)
+		(size 45.72 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b751caa0-ec7d-4f1b-ac01-8d9a54365694")
+		(property "Sheetname" "Sensors_and_Peripherals"
+			(at 130.81 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors_and_Peripherals.kicad_sch"
+			(at 130.81 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -735,7 +735,7 @@
         "uuid": "0eab3e03-be91-4947-b3db-b5c169582a4b"
       }
     ],
-    "used_designators": "H2-4,#PWR52-53,#PWR71-75,R24-25,J7,C34,Q2",
+    "used_designators": "#PWR71-73,#PWR75-86,#FLG7,R15-16,R26-27,J7-11,H1-3",
     "variants": []
   },
   "sheets": [
@@ -750,6 +750,10 @@
     [
       "98354bc1-1342-4ebb-af53-ef072585a9ed",
       "MicroController"
+    ],
+    [
+      "b751caa0-ec7d-4f1b-ac01-8d9a54365694",
+      "Sensors_and_Peripherals"
     ],
     [
       "a2ad5281-e4f1-42dc-9117-9489a5cb988a",
