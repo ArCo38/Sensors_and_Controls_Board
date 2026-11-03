@@ -7229,7 +7229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ba6319f-497e-45e6-a89f-b509249792a5")
-		(property "Reference" "R24"
+		(property "Reference" "R11"
 			(at 239.395 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7291,7 +7291,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "R24")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7308,7 +7308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21dd7b2e-f1c0-4537-a3ab-594649b4f456")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 227.965 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7370,7 +7370,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7547,7 +7547,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27479373-458e-4f7a-8e1f-f4543d3cc6b8")
-		(property "Reference" "R25"
+		(property "Reference" "R12"
 			(at 239.395 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7609,7 +7609,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "R25")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7626,7 +7626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27972a26-d326-41da-b85a-10d315bd5233")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 241.3 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7688,7 +7688,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6944d378-55cc-4f1d-bbe6-184750535ae3")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 248.92 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8407,7 +8407,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9065,7 +9065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4cbea9-2822-4e84-819f-4fc868273f69")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 276.86 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9257,7 +9257,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9433,7 +9433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "959fc322-495a-4c1c-bba8-14fa13fb6689")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 238.76 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9502,7 +9502,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "J7")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10590,7 +10590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2308898-b996-4847-91f8-5c4c1833d95b")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 76.2 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10652,7 +10652,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10751,7 +10751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7babe49-a9eb-4035-b5f5-83cf60e67a3e")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 63.5 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10815,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/98354bc1-1342-4ebb-af53-ef072585a9ed"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
