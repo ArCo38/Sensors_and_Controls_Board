@@ -53,7 +53,7 @@
 	)
 	(sheet
 		(at 185.42 20.32)
-		(size 46.99 49.53)
+		(size 46.99 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_Controls.kicad_sch"
-			(at 185.42 70.4346 0)
+			(at 185.42 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 130.81 21.59)
-		(size 45.72 43.18)
+		(at 129.54 21.59)
+		(size 46.99 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "b751caa0-ec7d-4f1b-ac01-8d9a54365694")
 		(property "Sheetname" "Sensors_and_Peripherals"
-			(at 130.81 20.8784 0)
+			(at 129.54 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors_and_Peripherals.kicad_sch"
-			(at 130.81 65.3546 0)
+			(at 129.54 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
