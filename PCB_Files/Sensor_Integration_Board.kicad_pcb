@@ -2970,7 +2970,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "15a6415e-9f60-420a-9bd8-5392011764df")
-		(at 404.5 306.4 -90)
+		(at 400.88 382.9 -90)
 		(descr "Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x07 2.54mm single row")
 		(property "Reference" "J5"
@@ -3230,7 +3230,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "OLED_MOSI")
+			(net "OLED_SCK")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "1238a6ff-1c26-4608-b8c3-42e111b32788")
@@ -3241,7 +3241,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "OLED_SCK")
+			(net "OLED_MOSI")
 			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "1fbf0d22-a779-4b6b-969d-3c9ce0e0948d")
@@ -3289,6 +3289,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${SENSOR_INTEGRATION_BOARD}/SSD1309 2.42_ OLED v2.step"
+			(offset
+				(xyz 20.3 -7.6 12.04)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 90)
 			)
 		)
 	)
@@ -7420,6 +7431,17 @@
 			(uuid "7aa24dc2-fd4f-40cd-8a80-610aba074a45")
 		)
 		(embedded_fonts no)
+		(model "${SENSOR_INTEGRATION_BOARD}/SO8_EP1_AOS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")

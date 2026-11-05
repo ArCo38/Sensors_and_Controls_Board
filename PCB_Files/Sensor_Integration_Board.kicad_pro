@@ -481,7 +481,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Footprints"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -735,7 +737,7 @@
         "uuid": "0eab3e03-be91-4947-b3db-b5c169582a4b"
       }
     ],
-    "used_designators": "#FLG6-7,R9-15,J1-2,D4,#PWR21-42,BOOT_SW1,C12-25,FB1,U3,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
