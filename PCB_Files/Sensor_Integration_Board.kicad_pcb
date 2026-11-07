@@ -1952,11 +1952,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "12deb0bc-2087-4b02-979f-45cf410b287c")
-		(at 547.675 398.75)
+		(at 538 401.5 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
-			(at 2.95 0 180)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "ad29ea2b-bfd6-4ab4-a65c-c2ee7305bebe")
 			(effects
@@ -1967,7 +1967,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "0b0f0d6b-69c3-4aa7-8715-8a48bf6150be")
 			(effects
@@ -1978,7 +1978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b671e2c-06aa-4bd3-8c39-a20454c09b1d")
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8cf35b4f-8a3b-4c38-86da-5551fda90c00")
@@ -2000,7 +2000,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b80bf60f-9f0e-4c0b-88a2-129641dae83d")
@@ -2066,7 +2066,7 @@
 			(uuid "a64ca334-aae6-4df1-aa62-e7a84e67dfb5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "8486cde6-57c6-46d6-8dbd-bcdf74ec07e6")
 			(effects
@@ -2077,7 +2077,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2086,7 +2086,7 @@
 			(uuid "119a911e-96d8-4a77-987e-7c3df29c84af")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3468,7 +3468,7 @@
 		(descr "SSOP, 24 Pin (JEDEC MO-150 variation AG, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=398, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-ssop/ssop_24_05-08-1640.pdf)")
 		(tags "SSOP SO")
 		(property "Reference" "U5"
-			(at 0 -5.05 90)
+			(at -3.5 -5.75 180)
 			(layer "F.SilkS")
 			(uuid "d76c9874-8ce3-4bc7-b422-60351f518e3b")
 			(effects
@@ -6073,7 +6073,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -0.315 2.006001 0)
+			(at 2.685 0.006001 0)
 			(layer "F.SilkS")
 			(uuid "7d524472-d9b9-48ff-bc2b-2cd0a2aa1daa")
 			(effects
@@ -8142,11 +8142,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "44b031fc-37f8-419f-9daa-9f459a8ca7a7")
-		(at 481.531001 406.290078 -90)
+		(at 478.275 408.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C28"
-			(at 2.25 0 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "5b3660c9-e0a0-4e9c-911d-fa67a1c51e7e")
 			(effects
@@ -8157,7 +8157,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 90)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e580eecf-231f-49e9-a518-a65f3ae6b48b")
 			(effects
@@ -8168,7 +8168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92df68c3-511a-4bc7-9236-9e0edfb64454")
@@ -8179,7 +8179,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c29099be-b4c8-4599-8be5-9381366e24c4")
@@ -8190,7 +8190,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6ea0748a-1146-4904-a4ae-ece2304f49a8")
@@ -8256,7 +8256,7 @@
 			(uuid "b761b0f6-b85a-46ad-b597-24dc08d79618")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7863cecb-9511-4504-aec3-40a87e0efab3")
 			(effects
@@ -8267,7 +8267,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 270)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8276,7 +8276,7 @@
 			(uuid "25abb3ee-49f7-4d7e-b1c7-e8f9cf286660")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 270)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8903,7 +8903,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "47b43749-a5b3-4fb2-a054-91807afa267d")
-		(at 488 427.075 90)
+		(at 488.5 427.075 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -13912,11 +13912,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7c5077b5-c109-4a54-af00-0a8860cac3e3")
-		(at 484.281001 406.540078 -90)
+		(at 478.025 411 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C29"
-			(at 0 -2.5 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "45498e5b-c921-4f38-b2ce-156833033576")
 			(effects
@@ -13927,7 +13927,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.68 90)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "327bf947-5b6b-4a11-84fc-42d3028fcfc3")
 			(effects
@@ -13938,7 +13938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "014c06b0-ab3e-468d-a838-e3210beb7bff")
@@ -13949,7 +13949,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa51deb6-9607-407a-80f4-305a770197f8")
@@ -13960,7 +13960,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8b83237e-7d68-4452-b56e-ef063360e580")
@@ -14026,7 +14026,7 @@
 			(uuid "3eadab61-d786-4f72-b5fc-07a8fb279fb7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bc0f46b9-2254-4dcb-92a9-ef03f9aae20e")
 			(effects
@@ -14037,7 +14037,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0 270)
+			(at -0.95 0 180)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14046,7 +14046,7 @@
 			(uuid "7413d8ca-2ed2-4d3f-81ca-eb9a71d5ad87")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0 270)
+			(at 0.95 0 180)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14070,7 +14070,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "81187c82-fd5d-44a4-ad76-92ca46bea58c")
-		(at 502.806001 412 180)
+		(at 502.975 412 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C11"
@@ -14612,7 +14612,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
-			(at -2.975 0.25 180)
+			(at 3.15 0 180)
 			(layer "F.SilkS")
 			(uuid "d3e037bf-d3ce-493f-ae41-ded4e332a83d")
 			(effects
@@ -17168,7 +17168,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b33de155-a443-451f-89ef-c5095c965ec4")
-		(at 490.25 427.075 90)
+		(at 490.75 427.075 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D2"
@@ -18735,11 +18735,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ce82e16d-7af9-433e-9abf-69ec1dac20a1")
-		(at 547.675 396.2)
+		(at 535.45 401.5 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C33"
-			(at 0 -1.7 180)
+			(at 0 -2.7 180)
 			(layer "F.SilkS")
 			(uuid "d5822e26-7d53-4eea-b4a3-50e6401df8a7")
 			(effects
@@ -18750,7 +18750,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "5e0b5d83-680f-4c51-8022-fa75d47b278f")
 			(effects
@@ -18761,7 +18761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a96b93d8-642a-460d-9dab-d769ab5cd3fd")
@@ -18772,7 +18772,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7330a25-066e-43fd-b482-10b1cf33b843")
@@ -18783,7 +18783,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "17edf4dd-6479-47b3-9c81-7d67b3430a78")
@@ -18849,7 +18849,7 @@
 			(uuid "6446e352-0313-4852-8614-c299a05c2c23")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "c82a56a5-8403-4f0d-92f9-c563b307ec5f")
 			(effects
@@ -18860,7 +18860,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0)
+			(at -0.95 0 90)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18869,7 +18869,7 @@
 			(uuid "2104ce80-0101-4f46-968f-bc51b795939e")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0)
+			(at 0.95 0 90)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20780,11 +20780,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e7a80fa2-e204-4dad-9915-e2a6a31ac9f0")
-		(at 475.006001 438.5 -90)
+		(at 475.006001 436.5 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 1 -1.993999 180)
+			(at 2.5 0.006001 180)
 			(layer "F.SilkS")
 			(uuid "b77cf395-f136-4cff-ab43-b9746915c04c")
 			(effects
@@ -20938,7 +20938,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ec64ca83-e80e-4595-b328-3d00eae39794")
-		(at 472 442 -90)
+		(at 475.5 425.5 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -21313,7 +21313,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f07818da-805f-45e7-b3ce-12d055efbabf")
-		(at 502.806001 414.25 180)
+		(at 502.975 414.25 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -21693,7 +21693,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f314f4d1-5a3c-4e54-9fc7-db81b248f798")
-		(at 472 445.925 90)
+		(at 475.5 429.425 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D1"
@@ -22541,6 +22541,34 @@
 	)
 	(gr_poly
 		(pts
+			(xy 471 434) (xy 474 434) (xy 474 421.5) (xy 480.25 415.25) (xy 480.25 411.657236) (xy 480.092764 411.5)
+			(xy 478.25 411.5) (xy 478.25 413.25) (xy 471 420.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "+VBAT_SW")
+		(uuid "565727cb-2813-4a55-873e-5593fb7a3e48")
+	)
+	(gr_poly
+		(pts
+			(xy 487.25 425.5) (xy 484.75 425.5) (xy 484.75 421) (xy 485.25 420.5) (xy 500.25 420.5) (xy 500.25 422.25)
+			(xy 499 423.5) (xy 488.75 423.5) (xy 487.25 425)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "1aef2026-2749-44e1-87ad-2dcb8b082690")
+	)
+	(gr_poly
+		(pts
 			(xy 462.25 433.25) (xy 460.75 431.75) (xy 459.25 431.75) (xy 458.5 432.5) (xy 458.5 435.5) (xy 459 436)
 			(xy 463.25 436) (xy 463.75 436.5) (xy 468.5 436.5) (xy 468.5 433.5) (xy 468.25 433.25)
 		)
@@ -22569,9 +22597,24 @@
 	)
 	(gr_poly
 		(pts
-			(xy 471 433.25) (xy 471 438.25) (xy 476 438.25) (xy 476.75 437.5) (xy 476.75 435.75) (xy 477 435.5)
-			(xy 479.25 435.5) (xy 480.25 436.5) (xy 482 436.5) (xy 482 434.5) (xy 481.75 434.25) (xy 479.75 434.25)
-			(xy 479.5 434) (xy 473.75 434) (xy 473 433.25)
+			(xy 497.75 418.25) (xy 497.75 419.75) (xy 498 420) (xy 503.25 420) (xy 504.5 421.25) (xy 506.25 421.25)
+			(xy 506.25 416.75) (xy 505 416.75) (xy 504.75 416.5) (xy 504.75 413) (xy 504.75 411) (xy 504.5 410.75)
+			(xy 503.25 410.75) (xy 503.25 415.225) (xy 500.225 418.25)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "2eaddee2-7626-421c-8e9b-e016bf5fb5d9")
+	)
+	(gr_poly
+		(pts
+			(xy 471 433) (xy 471 438) (xy 473.5 438) (xy 473.5 436.75) (xy 474 436.25) (xy 477.25 436.25) (xy 477.685 435.815)
+			(xy 479.75 435.815) (xy 480 436.065) (xy 480 436.5) (xy 481.75 436.5) (xy 482 436.25) (xy 482 434.25)
+			(xy 476.75 434.25) (xy 476.25 434.75) (xy 474 434.75) (xy 474 433)
 		)
 		(stroke
 			(width 0.2)
@@ -22580,7 +22623,41 @@
 		(fill yes)
 		(layer "F.Cu")
 		(net "+VBAT_SW")
-		(uuid "ec3571b5-6e99-4177-8719-3b41d6ce9ef7")
+		(uuid "67766ba8-8931-434a-975f-b5ab2b660623")
+	)
+	(gr_poly
+		(pts
+			(xy 479.75 412.157236) (xy 480.25 411.657236) (xy 480.25 406.657236) (xy 479.5 405.907236) (xy 477 405.907236)
+			(xy 476.75 405.657236) (xy 476.75 400.157236) (xy 477 399.774582) (xy 479.929854 399.774582) (xy 479.929854 398.907236)
+			(xy 479.5 398.426764) (xy 475.5 398.426764) (xy 474.5 399.657236) (xy 474.5 406.407236) (xy 476 407.669402)
+			(xy 478.25 407.669402) (xy 478.25 411.907236) (xy 478.5 412.157236)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "+VBAT_SW")
+		(uuid "4ccd40a0-8c36-47ba-abc6-312498c1f046")
+	)
+	(gr_poly
+		(pts
+			(xy 473.5 442.75) (xy 473.75 443) (xy 503.75 443) (xy 518.25 428.5) (xy 529 417.75) (xy 529 405.75)
+			(xy 533.25 401.5) (xy 538.75 401.5) (xy 539.5 400.75) (xy 539.5 400) (xy 540.25 400) (xy 540.5 400.25)
+			(xy 540.5 402.75) (xy 540.75 403) (xy 546 403) (xy 546.5 402.5) (xy 546.5 400.25) (xy 546.75 400)
+			(xy 547.5 400) (xy 548 400.5) (xy 548 404.5) (xy 547.25 405.25) (xy 540.5 405.25) (xy 538.25 403)
+			(xy 536.75 403) (xy 536.5 403.25) (xy 534.75 403.25) (xy 534.75 423.25) (xy 507.25 450.75) (xy 468.5 450.75)
+			(xy 468.5 439.25) (xy 471 436.75) (xy 473.5 436.75)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "+VBAT_SW")
+		(uuid "312a7325-f4a3-4404-b4b0-ca0070cf26b0")
 	)
 	(gr_rect
 		(start 497.25 430)
@@ -23311,20 +23388,28 @@
 		(uuid "e15eb0aa-3d51-4a63-8b97-7ae8f319de7a")
 	)
 	(segment
-		(start 472 441.175)
-		(end 472 437.771001)
-		(width 0.8)
+		(start 475.5 423.75)
+		(end 475.5 424.675)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "+VBAT_SW")
-		(uuid "49770218-5682-4237-aa42-f6d2cc5ee193")
+		(uuid "0b5d706d-2cf8-4890-b940-5825318cf074")
 	)
 	(segment
-		(start 472 437.771001)
-		(end 472.231001 437.54)
-		(width 0.8)
+		(start 473.5 422.75)
+		(end 474.5 422.75)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "+VBAT_SW")
-		(uuid "b1084894-59a5-4620-9018-7687f6988e06")
+		(uuid "a214885e-72ed-47b3-b3c6-cb6d404dfa03")
+	)
+	(segment
+		(start 474.5 422.75)
+		(end 475.5 423.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+VBAT_SW")
+		(uuid "ce5b0795-ed23-4685-81ed-c35c3dc1c8ab")
 	)
 	(segment
 		(start 487.865 436.115)
@@ -23349,6 +23434,30 @@
 		(layer "F.Cu")
 		(net "/Power_Delivery/VCC")
 		(uuid "e625b6ee-22c1-4a43-aed8-42909bc83b9c")
+	)
+	(segment
+		(start 505.156001 419)
+		(end 512.575 419)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "26a4e7ef-f1a2-4d4b-8dbb-e011cf0e9b7c")
+	)
+	(segment
+		(start 512.575 419)
+		(end 513 419.425)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "c3c5e9f9-6a70-4d81-9c22-fcfaad74ac3e")
+	)
+	(segment
+		(start 503.75 412.175)
+		(end 503.925 412)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "cd63f38b-14f2-4d22-99d1-c4c51df8da1a")
 	)
 	(segment
 		(start 486.480151 437.27)
@@ -23559,12 +23668,74 @@
 		(uuid "b3cac51c-15c7-437c-8ae7-ba1c80828cc2")
 	)
 	(segment
-		(start 472 442.825)
-		(end 472 445.1375)
+		(start 488.5 426.25)
+		(end 490.7125 426.25)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(D2-A)")
+		(uuid "3949f867-6588-4f97-92b5-06c9bb096e4e")
+	)
+	(segment
+		(start 490.2125 426.25)
+		(end 490.25 426.2875)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(D2-A)")
+		(uuid "509e776e-fd7a-4fe5-b7e5-6a89b9c9bd03")
+	)
+	(segment
+		(start 513 421.075)
+		(end 513 423.2125)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(D3-A)")
+		(uuid "f9f456fd-9db3-4b81-8c6a-a87675af7225")
+	)
+	(segment
+		(start 475.5 426.325)
+		(end 475.5 428.6375)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "Net-(D1-A)")
 		(uuid "d7bdfb90-65e0-4138-9850-16debc7616e2")
+	)
+	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(uuid "179a4f7f-4bbe-4719-8b20-1e85bbd1de2b")
+		(name "GND")
+		(hatch edge 0.5)
+		(priority 3)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 492.5 420) (xy 496.5 420) (xy 497 419.5) (xy 497 417.75) (xy 500 417.75) (xy 502.75 415) (xy 502.75 411.25)
+				(xy 502.5 411) (xy 501.25 411) (xy 500.5 411.75) (xy 500.5 414) (xy 499 415.5) (xy 495.75 415.5)
+				(xy 492.5 418.75)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 502.515677 411.019685) (xy 502.536319 411.036319) (xy 502.713681 411.213681) (xy 502.747166 411.275004)
+				(xy 502.75 411.301362) (xy 502.75 414.948638) (xy 502.730315 415.015677) (xy 502.713681 415.036319)
+				(xy 500.036319 417.713681) (xy 499.974996 417.747166) (xy 499.948638 417.75) (xy 497 417.75) (xy 497 419.448638)
+				(xy 496.980315 419.515677) (xy 496.963681 419.536319) (xy 496.536319 419.963681) (xy 496.474996 419.997166)
+				(xy 496.448638 420) (xy 492.624 420) (xy 492.556961 419.980315) (xy 492.511206 419.927511) (xy 492.5 419.876)
+				(xy 492.5 418.801362) (xy 492.519685 418.734323) (xy 492.536319 418.713681) (xy 495.713681 415.536319)
+				(xy 495.775004 415.502834) (xy 495.801362 415.5) (xy 499 415.5) (xy 500.5 414) (xy 500.5 411.801362)
+				(xy 500.519685 411.734323) (xy 500.536319 411.713681) (xy 501.213681 411.036319) (xy 501.275004 411.002834)
+				(xy 501.301362 411) (xy 502.448638 411)
+			)
+		)
 	)
 	(zone
 		(net "GND")
@@ -23584,20 +23755,24 @@
 		)
 		(polygon
 			(pts
-				(xy 474 441.25) (xy 474 438.933584) (xy 476.5 438.933584) (xy 477.5 438) (xy 477.5 436.25) (xy 479.25 436.25)
+				(xy 474 441.25) (xy 474 436.75) (xy 478.838926 436.75) (xy 477.5 438) (xy 477.5 436.25) (xy 479.25 436.25)
 				(xy 480 437) (xy 481.75 437) (xy 482 437.25) (xy 482 440.75) (xy 481.5 441.25)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 479.265677 436.269685) (xy 479.286319 436.286319) (xy 480 437) (xy 481.698638 437) (xy 481.765677 437.019685)
-				(xy 481.786319 437.036319) (xy 481.963681 437.213681) (xy 481.997166 437.275004) (xy 482 437.301362)
-				(xy 482 440.698638) (xy 481.980315 440.765677) (xy 481.963681 440.786319) (xy 481.536319 441.213681)
+				(xy 479.265677 436.269685) (xy 479.286319 436.286319) (xy 479.589074 436.589074) (xy 479.611878 436.62046)
+				(xy 479.614346 436.625305) (xy 479.614347 436.625306) (xy 479.671944 436.738347) (xy 479.671946 436.738349)
+				(xy 479.671948 436.738352) (xy 479.761647 436.828051) (xy 479.761649 436.828052) (xy 479.761653 436.828056)
+				(xy 479.874694 436.885653) (xy 479.87954 436.888122) (xy 479.910926 436.910926) (xy 480 437) (xy 481.698638 437)
+				(xy 481.765677 437.019685) (xy 481.786319 437.036319) (xy 481.963681 437.213681) (xy 481.997166 437.275004)
+				(xy 482 437.301362) (xy 482 440.698638) (xy 481.980315 440.765677) (xy 481.963681 440.786319) (xy 481.536319 441.213681)
 				(xy 481.474996 441.247166) (xy 481.448638 441.25) (xy 474.124 441.25) (xy 474.056961 441.230315)
-				(xy 474.011206 441.177511) (xy 474 441.126) (xy 474 439.057584) (xy 474.019685 438.990545) (xy 474.072489 438.94479)
-				(xy 474.124 438.933584) (xy 476.500001 438.933584) (xy 476.982826 438.482825) (xy 477.5 438) (xy 477.5 436.374)
-				(xy 477.519685 436.306961) (xy 477.572489 436.261206) (xy 477.624 436.25) (xy 479.198638 436.25)
+				(xy 474.011206 441.177511) (xy 474 441.126) (xy 474 436.874826) (xy 474.019685 436.807787) (xy 474.036319 436.787145)
+				(xy 474.037145 436.786319) (xy 474.098468 436.752834) (xy 474.124826 436.75) (xy 477.5 436.75) (xy 477.5 436.624826)
+				(xy 477.519685 436.557787) (xy 477.536319 436.537145) (xy 477.787145 436.286319) (xy 477.848468 436.252834)
+				(xy 477.874826 436.25) (xy 479.198638 436.25)
 			)
 		)
 	)
