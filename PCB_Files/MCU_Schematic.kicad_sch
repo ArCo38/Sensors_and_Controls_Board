@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_Parts:UJ20-C-H-G-MSMT-4B-P16-TR"
+		(symbol "Custom_Parts:UJ20-C-H-G-SMT-4-P16-TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -288,7 +288,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "UJ20-C-H-G-MSMT-4B-P16-TR"
+			(property "Value" "UJ20-C-H-G-SMT-4-P16-TR"
 				(at -7.62 -36.322 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -299,7 +299,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "UJ20-C-H-G-MSMT-4B-P16-TR:SAMESKY_UJ20-C-H-G-MSMT-4B-P16-TR"
+			(property "Footprint" "UJ20-C-H-G-SMT-4-P16-TR:SAMESKY_UJ20-C-H-G-SMT-4-P16-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -311,29 +311,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "CREATOR" "DIZAR"
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-4-P16-TR_Same_Sky.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -345,7 +323,7 @@
 					(justify bottom)
 				)
 			)
-			(property "NOTES" ""
+			(property "Description" "Type C, USB 2.0, 480 Mbps, 48 Vac, 5 A, Horizontal, Gold plated 3u, Surface Mount, CH 5.9mm, 16 pin, USB Receptacle"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -357,43 +335,7 @@
 					(justify bottom)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "1.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "VERIFIER" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "UNIT" "mm"
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-4-P16-TR_Same_Sky.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -417,7 +359,67 @@
 					(justify bottom)
 				)
 			)
-			(symbol "UJ20-C-H-G-MSMT-4B-P16-TR_0_0"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.46mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "UJ20-C-H-G-SMT-4-P16-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/UJ20-C-H-G-SMT-4-P16-TR/Same+Sky/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "UJ20-C-H-G-SMT-4-P16-TR_0_0"
 				(rectangle
 					(start -7.62 -35.56)
 					(end 7.62 22.86)
@@ -429,7 +431,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 12.7 -17.78 180)
 					(length 5.08)
 					(name "GND"
@@ -439,7 +441,7 @@
 							)
 						)
 					)
-					(number "A1/B12"
+					(number "A1_B12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -447,7 +449,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 12.7 20.32 180)
 					(length 5.08)
 					(name "VBUS"
@@ -457,7 +459,7 @@
 							)
 						)
 					)
-					(number "A4/B9"
+					(number "A4_B9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -537,7 +539,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 12.7 -20.32 180)
 					(length 5.08)
 					(name "GND__1"
@@ -547,7 +549,7 @@
 							)
 						)
 					)
-					(number "B1/A12"
+					(number "B1_A12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -555,7 +557,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 12.7 17.78 180)
 					(length 5.08)
 					(name "VBUS__1"
@@ -565,7 +567,7 @@
 							)
 						)
 					)
-					(number "B4/A9"
+					(number "B4_A9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9056,7 +9058,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Parts:UJ20-C-H-G-MSMT-4B-P16-TR")
+		(lib_id "Custom_Parts:UJ20-C-H-G-SMT-4-P16-TR")
 		(at 259.08 104.14 0)
 		(mirror y)
 		(unit 1)
@@ -9078,9 +9080,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "UJ20-C-H-G-MSMT-4B-P16-TR"
-			(at 290.83 140.97 0)
-			(hide yes)
+		(property "Value" "UJ20-C-H-G-SMT-4-P16-TR"
+			(at 266.7 140.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9090,7 +9091,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:SAMESKY_UJ20-C-H-G-SMT-4-P16-TR"
 			(at 259.08 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9102,7 +9103,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-4-P16-TR_Same_Sky.pdf"
 			(at 259.08 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9111,9 +9112,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "Type C, USB 2.0, 480 Mbps, 48 Vac, 5 A, Horizontal, Gold plated 3u, Surface Mount, CH 5.9mm, 16 pin, USB Receptacle"
 			(at 259.08 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9122,6 +9124,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "CREATOR" "DIZAR"
@@ -9208,6 +9211,54 @@
 				(justify bottom)
 			)
 		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-4-P16-TR_Same_Sky.pdf"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.46mm"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "UJ20-C-H-G-SMT-4-P16-TR"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/UJ20-C-H-G-SMT-4-P16-TR/Same+Sky/view-part/"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "A6"
 			(uuid "05262a84-237c-4cd2-a8ff-852fec54b5ba")
 		)
@@ -9220,7 +9271,7 @@
 		(pin "A5"
 			(uuid "5efc0974-6903-4079-b1f6-aac9447b2c8d")
 		)
-		(pin "B1/A12"
+		(pin "A1_B12"
 			(uuid "0b3d02ba-aa9a-4d4d-b916-709e19e5de92")
 		)
 		(pin "B7"
@@ -9235,13 +9286,13 @@
 		(pin "SH2"
 			(uuid "9e56bea1-0b35-4764-a00c-4ab606a2445b")
 		)
-		(pin "B4/A9"
+		(pin "A4_B9"
 			(uuid "1b3810da-2e9e-4998-a635-97fb0a04669f")
 		)
-		(pin "A1/B12"
+		(pin "B1_A12"
 			(uuid "c75e035a-2e65-4bbb-9123-ee3a1a82b7fb")
 		)
-		(pin "A4/B9"
+		(pin "B4_A9"
 			(uuid "2fdfdcdc-6cf4-4cfb-a1b9-9394834252b2")
 		)
 		(pin "A7"

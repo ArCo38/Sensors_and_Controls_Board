@@ -484,7 +484,9 @@
     "pinned_footprint_libs": [
       "Footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Custom_Parts"
+    ]
   },
   "meta": {
     "filename": "Sensor_Integration_Board.kicad_pro",
