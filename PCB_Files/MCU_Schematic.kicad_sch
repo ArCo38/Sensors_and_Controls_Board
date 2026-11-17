@@ -5642,6 +5642,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 81.28) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1eeeca1-9baf-4eef-928d-e854704caf06")
+	)
+	(wire
+		(pts
 			(xy 149.86 45.72) (xy 143.51 45.72)
 		)
 		(stroke
@@ -9084,7 +9094,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Footprints:SAMESKY_UJ20-C-H-G-SMT-4-P16-TR"
+		(property "Footprint" "Footprints:CUSTOM_OVERHANG_SAMESKY_UJ20-C-H-G-SMT-4-P16-TR"
 			(at 259.08 104.14 0)
 			(hide yes)
 			(show_name no)
