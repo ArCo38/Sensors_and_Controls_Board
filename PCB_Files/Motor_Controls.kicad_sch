@@ -1881,12 +1881,6 @@
 		(uuid "1f778538-0f44-4fb1-bf51-3a507e757268")
 	)
 	(junction
-		(at 38.1 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "213a360f-e0c4-415a-b9be-af47a44c3764")
-	)
-	(junction
 		(at 185.42 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2085,12 +2079,6 @@
 		(uuid "f19e495e-3bb8-4933-b5e2-7ec4a729a9e0")
 	)
 	(junction
-		(at 177.8 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7397c4d-1cc6-4199-a633-ffe46275e3d3")
-	)
-	(junction
 		(at 213.36 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2257,16 +2245,6 @@
 			(type default)
 		)
 		(uuid "1e768c9b-c20b-4be5-affd-ef67e6b15072")
-	)
-	(wire
-		(pts
-			(xy 173.99 95.25) (xy 177.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd251d8-ddb6-4e12-8026-5b24b0bc3d5e")
 	)
 	(wire
 		(pts
@@ -2710,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 95.25) (xy 38.1 95.25)
+			(xy 34.29 95.25) (xy 50.8 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2927,16 +2905,6 @@
 			(type default)
 		)
 		(uuid "77a84137-d666-46d8-b937-19e623d988a2")
-	)
-	(wire
-		(pts
-			(xy 177.8 90.17) (xy 177.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c12e1fe-ece5-4684-af99-1570b5078faf")
 	)
 	(wire
 		(pts
@@ -3410,16 +3378,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 95.25) (xy 50.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc995647-ce8d-4fb2-8cf4-d9a1daad56c1")
-	)
-	(wire
-		(pts
 			(xy 232.41 80.01) (xy 232.41 95.25)
 		)
 		(stroke
@@ -3590,16 +3548,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 90.17) (xy 38.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea630cc4-8fe1-4aa2-9e34-f8fead0d2378")
-	)
-	(wire
-		(pts
 			(xy 119.38 80.01) (xy 119.38 83.82)
 		)
 		(stroke
@@ -3690,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 95.25) (xy 193.04 95.25)
+			(xy 173.99 95.25) (xy 193.04 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5488,7 +5436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9075a72a-e928-40b4-90c3-17eb4ba64d67")
-		(property "Reference" "TP17"
+		(property "Reference" "TP16"
 			(at 190.5 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,86 +5494,6 @@
 		)
 		(pin "1"
 			(uuid "dbd7c8fb-8bc5-4e12-8b79-2b7183794db0")
-		)
-		(instances
-			(project "Sensor_Integration_Board"
-				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 90.17 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98033c0d-ff35-4d63-9c4b-39caf8270b33")
-		(property "Reference" "TP16"
-			(at 177.8 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 172.72 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95d07b1e-d4fc-4518-a619-54fb1855a824")
 		)
 		(instances
 			(project "Sensor_Integration_Board"
@@ -6277,86 +6145,6 @@
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 90.17 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b79cd905-95d7-4094-b309-7267a04589e5")
-		(property "Reference" "TP12"
-			(at 38.1 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 36.83 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 33.02 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "911af7f2-e340-41b7-a201-ae1cd2b567f7")
-		)
-		(instances
-			(project "Sensor_Integration_Board"
-				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7140,7 +6928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d29cf5e9-6ec7-455c-8fd7-8d754e3d2c26")
-		(property "Reference" "TP18"
+		(property "Reference" "TP17"
 			(at 172.72 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7202,7 +6990,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
-					(reference "TP18")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -7449,7 +7237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc2e5b5f-4025-4652-bfec-74d0e8d26af4")
-		(property "Reference" "TP19"
+		(property "Reference" "TP18"
 			(at 185.42 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,7 +7299,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/a2ad5281-e4f1-42dc-9117-9489a5cb988a"
-					(reference "TP19")
+					(reference "TP18")
 					(unit 1)
 				)
 			)

@@ -3322,7 +3322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "239b5fbc-49f9-49bb-8ca7-43cc81e07478")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 25.4 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3384,7 +3384,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/b751caa0-ec7d-4f1b-ac01-8d9a54365694"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -3482,7 +3482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2de9df89-96b4-4c90-aba7-8904ad37d0dc")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 133.35 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3544,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/b751caa0-ec7d-4f1b-ac01-8d9a54365694"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -3877,7 +3877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48736669-3c5c-4c1e-90f0-5a824e6179c4")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 173.99 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3939,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/b751caa0-ec7d-4f1b-ac01-8d9a54365694"
-					(reference "TP11")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -3957,7 +3957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f15596c-f045-4c44-8130-990ed30960ec")
-		(property "Reference" "TP10"
+		(property "Reference" "TP11"
 			(at 163.83 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4019,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/b751caa0-ec7d-4f1b-ac01-8d9a54365694"
-					(reference "TP10")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -4595,7 +4595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f2e01db-48ef-44bd-9241-b2df4a6db81f")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 125.73 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4657,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/b751caa0-ec7d-4f1b-ac01-8d9a54365694"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -5223,7 +5223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af849459-db24-4c7c-bc03-09cec63102d3")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 90.17 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5285,7 @@
 		(instances
 			(project "Sensor_Integration_Board"
 				(path "/0eab3e03-be91-4947-b3db-b5c169582a4b/b751caa0-ec7d-4f1b-ac01-8d9a54365694"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
