@@ -744,7 +744,7 @@
         "uuid": "0eab3e03-be91-4947-b3db-b5c169582a4b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP19-24,#PWR95-100",
     "variants": []
   },
   "sheets": [
@@ -758,7 +758,7 @@
     ],
     [
       "98354bc1-1342-4ebb-af53-ef072585a9ed",
-      "MicroController"
+      "MicroController - USB - SWD"
     ],
     [
       "b751caa0-ec7d-4f1b-ac01-8d9a54365694",

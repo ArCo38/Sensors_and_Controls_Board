@@ -21,7 +21,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "98354bc1-1342-4ebb-af53-ef072585a9ed")
-		(property "Sheetname" "MicroController"
+		(property "Sheetname" "MicroController - USB - SWD"
 			(at 73.66 19.6084 0)
 			(show_name no)
 			(do_not_autoplace no)
