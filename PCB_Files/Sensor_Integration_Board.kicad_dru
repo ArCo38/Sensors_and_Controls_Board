@@ -1,0 +1,4 @@
+(version 1)
+(rule "CR1_fine_pitch"
+  (constraint clearance (min 0.15mm))
+  (condition "A.memberOfFootprint('CR1') && B.memberOfFootprint('CR1')"))
